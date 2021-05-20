@@ -64,7 +64,12 @@ typedef struct Node{
 }Node;
 ```
 
-The pipeline is simply a doubly linked list with the head pointer being the source and with a declared tail pointer. To use the pipeline, a user must first create nodes using the ```createNode``` function, link the nodes to the pipeline sequentialy using the function ```link``` and then write a loop that traverses through the pipeline nodes, calling the ```perform``` function on each node.
+The pipeline is simply a doubly linked list with the head pointer being the source and with a declared tail pointer. To use the pipeline, a user must first create nodes using the ```createNode``` function, link the nodes to the pipeline sequentialy using the function ```link``` and then write a loop that traverses through the pipeline nodes, calling the ```perform``` function on each node. Below are the file descriptions:
+
+```api.h``` Header file where I declared the structure and the function prototypes
+```api.c``` C file where I wrote all the functions for the pipeline
+```main.c``` This is where I showed how to use the pipeline and how to create new nodes
+```test```  This is the .exe file that was created
 
 
 
