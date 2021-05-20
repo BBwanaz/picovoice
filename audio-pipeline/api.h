@@ -22,6 +22,6 @@ typedef struct Node{
 Node *tail;
 
 //operations declarations
-Node* createNode(char*, char*, char*, char*);        // method to create a node
+Node* createNode(char*, char*, char*, char*);        // function to create a node
 void link( Node* );                                  // function to link two nodes by appending one
 void perform(Node*);                                   // function for how the Node performs it's operation

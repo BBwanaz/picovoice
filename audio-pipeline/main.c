@@ -2,7 +2,7 @@
 
 int main(void){
 
-    Node* src;
+    Node* src;                                                          // Source
     Node* node;
     
     src = createNode("SRC","N/A","wav", "Input signal to pipeline");   //assuming we get the source from somewhere else;
