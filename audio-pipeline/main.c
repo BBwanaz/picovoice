@@ -1,6 +1,5 @@
 #include "api.h"
 
-
 int main(void){
 
     Node* src;
