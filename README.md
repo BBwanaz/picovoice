@@ -69,7 +69,7 @@ The pipeline is simply a doubly linked list with the head pointer being the sour
 ```api.h``` Header file where I declared the structure and the function prototypes\
 ```api.c``` C file where I wrote all the functions for the pipeline\
 ```main.c``` This is where I showed how to use the pipeline and how to create new nodes\
-```test```  This is the .exe file that was created\
+```test```  This is the .exe file that was created
 
 
 
